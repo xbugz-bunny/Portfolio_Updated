@@ -1,0 +1,28 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~4.0.1",
+    "@react-native-firebase/app": "^21.12.2",
+    "@react-native-firebase/auth": "^21.12.2",
+    "@react-native-google-signin/google-signin": "^13.2.0",
+    "axios": "^1.8.4",
+    "firebase": "^11.5.0",
+    "project1": "file:",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-native-web": "^0.19.13",
+    "react-router-dom": "^7.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
